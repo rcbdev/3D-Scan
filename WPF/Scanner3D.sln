@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanner3D", "Scanner3D\Scanner3D.csproj", "{28A79ABD-0BBC-4184-84FA-6A665F28052B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanner3D.Library", "Scanner3D.Library\Scanner3D.Library.csproj", "{38FF3C96-944E-490E-9D86-8C3FC36396DB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rcbdev.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Scanner3D.Library\\Scanner3D.Library.csproj
+		SccProjectName1 = Scanner3D.Library
+		SccLocalPath1 = Scanner3D.Library
+		SccProjectUniqueName2 = Scanner3D\\Scanner3D.csproj
+		SccProjectName2 = Scanner3D
+		SccLocalPath2 = Scanner3D
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Release|x64.ActiveCfg = Release|Any CPU
+		{28A79ABD-0BBC-4184-84FA-6A665F28052B}.Release|x86.ActiveCfg = Release|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Release|ARM.ActiveCfg = Release|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Release|x64.ActiveCfg = Release|Any CPU
+		{38FF3C96-944E-490E-9D86-8C3FC36396DB}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Scanner3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:library="clr-namespace:Scanner3D.Library;assembly=Scanner3D.Library"
+        Title="MainWindow" Height="350" Width="525"
+        DataContext="{Binding Main, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <library:WebcamCapture Name="WebcamCapture1"></library:WebcamCapture>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Source="{Binding CurrentOriginalImage}"></Image>
+                <Image Grid.Row="1" Source="{Binding CurrentLaserImage}"></Image>
+            </Grid>
+        </Grid>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Button Command="{Binding StartScanCommand}" Margin="0,0,10,0">Start Scan</Button>
+            <Button Command="{Binding SaveScanCommand}" Margin="0,0,10,0">Save Last Scan</Button>
+        </StackPanel>
+    </Grid>
+</Window>

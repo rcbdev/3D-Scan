@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>M1.Video</name>
+    </assembly>
+    <members>
+        <member name="T:M1.Video.InternalCameraMonitor">
+            <summary>
+            The InternalCameraMonitor monitors the camera, and generates events, whenever it is running.
+            </summary>
+        </member>
+    </members>
+</doc>
